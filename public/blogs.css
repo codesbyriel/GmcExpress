@@ -1,0 +1,31 @@
+body{
+    background-color: rgb(76, 74, 72);
+}
+
+.create-menu{
+    width: 65%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5px;
+    gap: 25px;
+}
+
+.input-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input{
+    padding: 15px 5px;
+    width: 100%;
+    border: none 5px;
+}
+
+.button{
+    background-color: rgb(54, 124, 193);
+    border: none;
+    width: 100px;
+    height: 35px;
+}

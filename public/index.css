@@ -1,0 +1,21 @@
+* {
+  background-color: bisque;
+}
+
+.main-page {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+}
+
+.top-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.blog-contents{
+    
+}

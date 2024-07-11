@@ -1,0 +1,33 @@
+<link rel="stylesheet" href="blogs.css">
+<link rel="stylesheet" href="header.css">
+    {{> __header}}
+<div class="create-menu">
+    <div>
+        <h1>Create A Post</h1>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Autem tempora explicabo, dolor perferendis atque
+            magnam
+            molestiae quasi velit accusantium inventore asperiores? Perferendis doloribus delectus est doloremque quasi
+            suscipit, aut atque!
+        </p>
+
+        <form class="input-fields" action="/blogs/create-blog" method="post"
+            enctype="application/x-www-form-urlencoded">
+            <div>
+                <label for="">Title</label>
+                <input name="title" class="input" type="text" placeholder="Title...">
+            </div>
+            <div>
+                <label for="">Tags</label>
+                <input name="tags" class="input" type="text" placeholder="Tags...">
+            </div>
+            <div>
+                <label for="">Content</label>=
+                <textarea class="input" name="content" id=""></textarea>
+            </div>
+            <div>
+                <button class="button" type="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
